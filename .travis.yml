@@ -6,7 +6,7 @@ node_js:
   - "0.8"
   - "0.6"
 before_install:
-  - sudo npm install -g bower gulp
+  - npm install -g bower gulp
 install:
   - bower install
 script:
