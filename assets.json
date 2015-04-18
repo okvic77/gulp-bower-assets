@@ -1,0 +1,17 @@
+{
+  "login": {
+    "scripts.js@concat": [
+      "jquery/dist/jquery.min.js",
+      "angular/angular.min.js",
+      "bootstrap/dist/js/bootstrap.min.js",
+      "underscore/underscore-min.js"
+    ],
+    "styles.css@concat": [
+      "animate.css/animate.min.css"
+    ],
+    "fonts@copy": [
+      "bootstrap/dist/fonts/*",
+      "font-awesome/fonts/*"
+    ]
+  }
+}

@@ -5,15 +5,15 @@
   "keywords": "gulp, bower, concat, copy",
   "homepage": "https://github.com/okvic77/gulp-bower-assets",
   "bugs": {
-      "url": "https://github.com/okvic77/gulp-bower-assets/issues"
-    },
-  "main": "gulp-assets.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "url": "https://github.com/okvic77/gulp-bower-assets/issues"
   },
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/okvic77/gulp-bower-assets.git"
+  "main": "app.js",
+  "scripts": {
+    "test2": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okvic77/gulp-bower-assets.git"
   },
   "author": "",
   "license": "ISC",
@@ -25,5 +25,9 @@
     "underscore": "^1.8.3",
     "vinyl": "^0.4.6",
     "vinyl-fs": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "mocha": "^2.2.4"
   }
 }

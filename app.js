@@ -127,13 +127,8 @@ module.exports = function gulpAssets(config) {
 
                     }
 
-                }, function(err) {
-                    exit();
-                });
+                }, exit);
 
-            },
-            function(err) {
-                cb(null);
-            });
+            }, cb);
     });
 };
