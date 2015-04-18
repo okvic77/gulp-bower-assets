@@ -1,5 +1,7 @@
 # gulp-bower-assets
 
+[![Build Status](https://travis-ci.org/okvic77/gulp-bower-assets.svg?branch=master)](https://travis-ci.org/okvic77/gulp-bower-assets)
+
 ```javascript
 var gulp = require('gulp'), assets = require('gulp-bower-assets');
 
