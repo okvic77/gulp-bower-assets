@@ -1,6 +1,6 @@
 {
   "name": "gulp-bower-assets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bundle assets form bower. Gulp.",
   "keywords": "gulp, bower, concat, copy",
   "homepage": "https://github.com/okvic77/gulp-bower-assets",
