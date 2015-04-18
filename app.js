@@ -16,7 +16,7 @@ var path = require('path');
 const PLUGIN_NAME = 'gulp-bower-assets';
 
 // Exporting the plugin main function
-module.exports = function gulpAssets(config) {
+module.exports = function(config) {
     _.defaults(config, {
         prefix: false,
         config: path.join(process.cwd(), '.bowerrc')
@@ -129,6 +129,8 @@ module.exports = function gulpAssets(config) {
 
                 }, exit);
 
-            }, cb);
+            }, function(){
+                cb(null)
+            });
     });
 };
