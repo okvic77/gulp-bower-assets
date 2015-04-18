@@ -1,10 +1,19 @@
 {
   "name": "gulp-bower-assets",
   "version": "0.0.1",
-  "description": "Bundle assets form bower",
+  "description": "Bundle assets form bower. Gulp.",
+  "keywords": "gulp, bower, concat, copy",
+  "homepage": "https://github.com/okvic77/gulp-bower-assets",
+  "bugs": {
+      "url": "https://github.com/okvic77/gulp-bower-assets/issues"
+    },
   "main": "gulp-assets.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/okvic77/gulp-bower-assets.git"
   },
   "author": "",
   "license": "ISC",
